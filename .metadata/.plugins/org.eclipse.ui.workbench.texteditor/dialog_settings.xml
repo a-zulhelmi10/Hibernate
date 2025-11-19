@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<item key="hasShownOverlayPopupBefore" value="true"/>
+	<section name="java.lang.Class">
+		<item key="replaceBarOpen" value="false"/>
+		<list key="findhistory">
+			<item value="transactionManager"/>
+			<item value="psgsquad"/>
+			<item value="annonatedClasses"/>
+			<item value="datasource"/>
+			<item value="http"/>
+			<item value="https"/>
+		</list>
+	</section>
+	<section name="org.eclipse.ui.texteditor.GotoLineAction$GotoLineDialog_dialogBounds">
+		<item key="DIALOG_X_ORIGIN" value="338"/>
+		<item key="DIALOG_Y_ORIGIN" value="394"/>
+	</section>
+</section>

@@ -1,0 +1,15 @@
+127.0.0.1 - - [01/Nov/2025:00:30:56 +0800] "GET / HTTP/1.1" 404 752
+0:0:0:0:0:0:0:1 - - [01/Nov/2025:00:30:58 +0800] "GET /SpringMvcProj/login.jsp HTTP/1.1" 200 324
+0:0:0:0:0:0:0:1 - - [01/Nov/2025:00:30:58 +0800] "GET /favicon.ico HTTP/1.1" 404 763
+0:0:0:0:0:0:0:1 - - [01/Nov/2025:00:31:08 +0800] "POST /SpringMvcProj/login HTTP/1.1" 200 200
+127.0.0.1 - - [01/Nov/2025:00:33:31 +0800] "GET / HTTP/1.1" 404 752
+0:0:0:0:0:0:0:1 - - [01/Nov/2025:00:33:32 +0800] "GET /SpringMvcProj/login.jsp HTTP/1.1" 200 324
+0:0:0:0:0:0:0:1 - - [01/Nov/2025:00:33:40 +0800] "POST /SpringMvcProj/login HTTP/1.1" 404 683
+127.0.0.1 - - [01/Nov/2025:00:36:03 +0800] "GET / HTTP/1.1" 404 752
+0:0:0:0:0:0:0:1 - - [01/Nov/2025:00:36:04 +0800] "GET /SpringMvcProj/login.jsp HTTP/1.1" 200 323
+0:0:0:0:0:0:0:1 - - [01/Nov/2025:00:36:08 +0800] "POST /SpringMvcProj/manu HTTP/1.1" 200 190
+0:0:0:0:0:0:0:1 - - [01/Nov/2025:00:36:10 +0800] "GET /SpringMvcProj/login.jsp HTTP/1.1" 200 323
+127.0.0.1 - - [01/Nov/2025:00:36:57 +0800] "GET / HTTP/1.1" 404 752
+0:0:0:0:0:0:0:1 - - [01/Nov/2025:00:36:58 +0800] "GET /SpringMvcProj/login.jsp HTTP/1.1" 200 325
+0:0:0:0:0:0:0:1 - - [01/Nov/2025:00:37:03 +0800] "POST /SpringMvcProj/kuikui HTTP/1.1" 200 190
+0:0:0:0:0:0:0:1 - - [01/Nov/2025:00:37:04 +0800] "GET /SpringMvcProj/login.jsp HTTP/1.1" 200 325

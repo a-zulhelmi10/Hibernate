@@ -1,0 +1,5 @@
+INDEX VERSION 1.134
+D:\Users\Home\eclipse-workspace\Workspace3 - Hibernate\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2386305168.index
+\SpringMvcProj\src\main\resources
+D:\Users\Home\eclipse-workspace\Workspace3 - Hibernate\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2439747467.index
+\SpringMVCProj\src\main\resources

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xmlns:tx="http://www.springframework.org/schema/tx"
+	xsi:schemaLocation="
+           http://www.springframework.org/schema/beans
+           http://www.springframework.org/schema/beans/spring-beans.xsd
+           http://www.springframework.org/schema/context
+           http://www.springframework.org/schema/context/spring-context.xsd
+           http://www.springframework.org/schema/tx
+           http://www.springframework.org/schema/tx/spring-tx.xsd">
+
+	<bean id="lib" class="com.spring.Library"> <!-- when we refer to id "lib" inside test/main class, its going to create 
+			the object of the class(Library.java) -->
+		<property name="book" ref="book"/>
+	</bean>
+	<bean id="book" class="com.spring.Book">
+		<constructor-arg value="101" />
+		<constructor-arg value="Learn Spring" />
+	</bean>
+	<bean id="libMulti" class="com.spring.LibraryMultiple">
+		<property name="books">
+			<list>
+				<ref bean="book1"/>
+				<ref bean="book2"/>
+				<ref bean="book3"/>
+			</list>
+		</property>
+	</bean>
+	<bean id="book1" class="com.spring.Book">
+		<constructor-arg value="102"/>
+		<constructor-arg value="Learn Java"/>
+	</bean>
+	<bean id="book2" class="com.spring.Book">
+		<constructor-arg value="205"/>
+		<constructor-arg value="Learn Hibernate"/>
+	</bean>
+	<bean id="book3" class="com.spring.Book">
+		<constructor-arg value="302"/>
+		<constructor-arg value="Learn Angular"/>
+	</bean>
+</beans>
+
+
+
+    
